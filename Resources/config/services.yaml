@@ -1,15 +1,15 @@
 services:
-    K3ssen\SymfonyVueBundle\Vue\VueDataStorage:
+    K3ssen\VueBundle\Storage\VueDataStorage:
         autoconfigure: true
 
-    K3ssen\SymfonyVueBundle\Vue\VueExtension:
+    K3ssen\VueBundle\Twig\VueExtension:
         autoconfigure: true
         arguments:
-            $vueDataStorage: '@K3ssen\SymfonyVueBundle\Vue\VueDataStorage'
+            $vueDataStorage: '@K3ssen\VueBundle\Storage\VueDataStorage'
 
-    K3ssen\SymfonyVueBundle\Form\Extension\VueFormTypeExtension:
+    K3ssen\VueBundle\Form\Extension\VueFormTypeExtension:
         autoconfigure: true
         arguments:
-            $vueDataStorage: '@K3ssen\SymfonyVueBundle\Vue\VueDataStorage'
+            $vueDataStorage: '@K3ssen\VueBundle\Storage\VueDataStorage'
         tags:
             - 'form.type_extension'

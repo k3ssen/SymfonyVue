@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace K3ssen\SymfonyVueBundle;
+namespace K3ssen\VueBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class SymfonyVueBundle extends Bundle
+class VueBundle extends Bundle
 {
 }

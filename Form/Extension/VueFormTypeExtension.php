@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace K3ssen\SymfonyVueBundle\Form\Extension;
+namespace K3ssen\VueBundle\Form\Extension;
 
 use Doctrine\Common\Collections\Collection;
-use K3ssen\SymfonyVueBundle\Vue\VueDataStorage;
+use K3ssen\VueBundle\Storage\VueDataStorage;
 use Symfony\Component\Form\AbstractTypeExtension;
 use Symfony\Component\Form\ChoiceList\View\ChoiceView;
 use Symfony\Component\Form\Extension\Core\Type\FormType;

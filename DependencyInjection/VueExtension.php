@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace K3ssen\SymfonyVueBundle\DependencyInjection;
+namespace K3ssen\VueBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\Config\FileLocator;
 
-class SymfonyVueExtension extends Extension
+class VueExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {

@@ -1,8 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace K3ssen\SymfonyVueBundle\Vue;
+namespace K3ssen\VueBundle\Twig;
 
+use K3ssen\VueBundle\Storage\VueDataStorage;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFilter;
 use Twig\TwigFunction;

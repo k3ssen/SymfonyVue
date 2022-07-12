@@ -1,5 +1,5 @@
 {
-    "name": "k3ssen/symfony-vue-bundle",
+    "name": "k3ssen/vue-bundle",
     "license": "MIT",
     "description": "Bundle for Symfony (4.4, 5, 6) applications that makes combining Twig and Vue easy",
     "keywords": [
@@ -31,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "K3ssen\\SymfonyVueBundle\\": ""
+            "K3ssen\\VueBundle\\": ""
         }
     }
 }

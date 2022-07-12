@@ -1,4 +1,4 @@
-# SymfonyVueBundle
+# VueBundle
 
 A small SymfonyBundle that makes it easy to combine Twig and Vue.
 
@@ -18,13 +18,13 @@ See [Usage](#usage) for more details.
 ## Setup - quickstart
 
 Install the bundle:
-`composer require k3ssen/symfony-vue-bridge`
+`composer require k3ssen/vue-bundle`
 
 You'll probably want to use setup VueJs with Symfony Encore 
 (see [Setup with Encore](#setup-with-encore) for details below), but for quickly trying out this bundle
 you can use the include-script below in your Twig code (replace the `3` with a `2` if you want to use version 2):
 ```
-{% include '@SymfonyVue/_vue3_script.html.twig' %}
+{% include '@Vue/_vue3_script.html.twig' %}
 ```
 
 This will activate vue on the element with `id="app"`, so you'll need an element that has this id set on
@@ -41,7 +41,7 @@ to run `php bin/console maker:controller Dashboard` you should have an
         {{ vue_data('count', 1) }}
         <button @click="count++" v-text="'Counter: ' + count"></button>
     </div>
-    {% include '@SymfonyVue/_vue3_script.html.twig' %}
+    {% include '@Vue/_vue3_script.html.twig' %}
 {% endblock %}
 ```
 

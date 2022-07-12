@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace K3ssen\SymfonyVueBundle\Vue;
+namespace K3ssen\VueBundle\Storage;
 
 class VueDataStorage
 {
